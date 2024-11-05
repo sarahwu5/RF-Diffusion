@@ -5,6 +5,7 @@
 ## Overview
 We introduce RF-Diffusion, a versatile generative model designed for wireless data. RF-Diffusion is capable of generating various types of signals, including Wi-Fi, FMCW Radar, 5G, and even modalities beyond RF, showcasing RF-Diffusion's prowess across different signal categories. We extensively evaluate RF-Diffusion's generative capabilities and validate its effectiveness in multiple downstream tasks, including wireless sensing and 5G channel estimation.
 
+
 Our basic implementation of RF-Diffusion is provided in this repository. We have released several medium-sized pre-trained models (each containing 16 to 32 blocks, with 128 or 256 hidden dim) and part of the corresponding data files in [releases](https://github.com/mobicom24/RF-Diffusion/releases/tag/dataset_model), which can be used for performance testing. 
 
 An intuitive comparison between RF-Diffusion and three other prevalent generative models is shown as follows. For demonstration purposes, we provide the **Doppler Frequency Shift (DFS)** spectrogram of the Wi-Fi signal, and the **Range Doppler Map (RDM)** spectrogram of the FMCW Radar signal, which are representative features of the two signals, respectively.
